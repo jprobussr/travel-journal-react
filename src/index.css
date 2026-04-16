@@ -111,6 +111,9 @@ select {
 
 .entry-card__content {
   padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .entry-card__country {
@@ -140,12 +143,24 @@ select {
 }
 
 .entry-card__link {
-  margin-left: 0.5rem;
-  color: var(--accent);
+  display: block;
+  margin-top: 1rem;
+  color: var(--muted);
   font-size: 0.7rem;
   text-decoration: none;
 }
 
 .entry-card__link:hover {
   text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .entry-card__image {
+    width: 320px;
+    height: 100%;
+  }
+  .entry-card {
+    flex-direction: row;
+    align-items: stretch;
+  }
 }

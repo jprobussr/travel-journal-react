@@ -9,7 +9,7 @@ const Entry = (props) => {
         <p className="entry-card__dates">{props.dates}</p>
         <p className="entry-card__text">{props.text}</p>
         <p className="entry-card__country">
-          {props.country}
+         
           <a
             href={props.googleMapsLink}
             target="_blank"

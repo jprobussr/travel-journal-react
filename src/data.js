@@ -6,18 +6,33 @@ export const entries = [
     googleMapsLink: 'https://maps.google.com/?q=Kyoto',
     dates: '12 Jan, 2026 - 18 Jan, 2026',
     text: 'Kyoto is known for its beautiful temples, peaceful gardens, and traditional streets that blend history with everyday life.',
-    image:
-      'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=900&q=80',
   },
-
   {
     id: 2,
     title: 'Paris, France',
     country: 'France',
     googleMapsLink: 'https://maps.google.com/?q=Paris',
     dates: '05 Feb, 2026 - 10 Feb, 2026',
-    text: 'Paris is known for its art, fashion, and the iconic Eiffel Tower.',
-    image:
-      'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=80',
+    text: 'Paris offers world-class art, historic architecture, and a vibrant café culture that defines the city.',
+    image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=80',
+  },
+  {
+    id: 3,
+    title: 'Santorini, Greece',
+    country: 'Greece',
+    googleMapsLink: 'https://maps.google.com/?q=Santorini',
+    dates: '20 Mar, 2026 - 25 Mar, 2026',
+    text: 'Santorini is famous for its whitewashed buildings, blue domes, and stunning sunsets over the Aegean Sea.',
+    image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80',
+  },
+  {
+    id: 4,
+    title: 'New York City, USA',
+    country: 'USA',
+    googleMapsLink: 'https://maps.google.com/?q=New+York+City',
+    dates: '10 Apr, 2026 - 15 Apr, 2026',
+    text: 'New York City is a fast-paced hub of culture, finance, and entertainment with iconic landmarks at every corner.',
+    image: 'https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=900&q=80',
   },
 ];
