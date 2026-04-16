@@ -138,3 +138,14 @@ select {
   color: var(--muted);
   line-height: 1.7;
 }
+
+.entry-card__link {
+  margin-left: 0.5rem;
+  color: var(--accent);
+  font-size: 0.7rem;
+  text-decoration: none;
+}
+
+.entry-card__link:hover {
+  text-decoration: underline;
+}

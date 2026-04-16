@@ -1,20 +1,20 @@
 import Entry from './components/Entry.jsx';
 import Header from './components/Header';
 import { entries } from './data.js';
-import './App.css'
-
-
-
+import './App.css';
 
 const App = () => {
-  console.log(entries);
-  
-  return (
-    <main className='app'>
-      <Header />
-      <Entry />
-    </main>
-  )
-}
+  const entryElements = entries.map((entry) => {
+    return <Entry key={entry.id} {...entry} />;
+  });
 
-export default App
+  return (
+    <main className="app">
+      <Header />
+
+      {entryElements}
+    </main>
+  );
+};
+
+export default App;
