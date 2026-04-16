@@ -87,3 +87,54 @@ select {
   color: var(--muted);
   line-height: 1.7;
 }
+
+.entry-card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: linear-gradient(
+    180deg,
+    rgba(24, 34, 53, 0.95),
+    rgba(18, 26, 43, 0.98)
+  );
+  box-shadow: var(--shadow);
+}
+
+.entry-card__image {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.entry-card__content {
+  padding: 1.25rem;
+}
+
+.entry-card__country {
+  margin: 0 0 0.5rem;
+  color: var(--accent-2);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.entry-card__title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.entry-card__dates {
+  margin: 0.75rem 0 0;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.entry-card__text {
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
