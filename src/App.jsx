@@ -12,7 +12,7 @@ const App = () => {
     <main className="app">
       <Header />
 
-      {entryElements}
+      <section className="entries">{entryElements}</section>
     </main>
   );
 };

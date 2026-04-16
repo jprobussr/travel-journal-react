@@ -91,7 +91,6 @@ select {
 .entry-card {
   display: flex;
   flex-direction: column;
-  margin-top: 1.5rem;
   overflow: hidden;
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -101,6 +100,16 @@ select {
     rgba(18, 26, 43, 0.98)
   );
   box-shadow: var(--shadow);
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.entry-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.4);
 }
 
 .entry-card__image {
@@ -127,7 +136,8 @@ select {
 
 .entry-card__title {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  line-height: 1.15;
 }
 
 .entry-card__dates {
@@ -152,6 +162,13 @@ select {
 
 .entry-card__link:hover {
   text-decoration: underline;
+}
+
+.entries {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
 }
 
 @media (min-width: 768px) {
